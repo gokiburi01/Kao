@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>顔検出カメラ</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      text-align: center;
+      background: black;
+    }
+    video, canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+
+<video id="video" width="720" height="560" autoplay muted></video>
+
+<!-- face-api.js CDN -->
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+<script defer src="app.js"></script>
+
+</body>
+</html>
